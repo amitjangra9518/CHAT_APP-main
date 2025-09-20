@@ -1,7 +1,7 @@
 import {useState} from "react"
 import {io} from 'socket.io-client'
 import {useEffect} from "react";
-const socket=io('http://localhost:3000')
+const socket=io('https://backend-mnwi.onrender.com')
 
 function App() {
   const [chatActive,setChatActive]=useState(false);
